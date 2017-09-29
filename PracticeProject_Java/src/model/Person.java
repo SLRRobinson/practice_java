@@ -29,8 +29,9 @@ public class Person {
 		this.age = age;
 	}
 	
-	public void calling(String namePerson, String colorPerson) {
-		name=namePerson ; color=colorPerson;
+	public String calling(String namePerson, String colorPerson) {
+		this.name=namePerson ; this.color=colorPerson;
+		return namePerson + colorPerson;
 				}
 	
 	public void answer() {

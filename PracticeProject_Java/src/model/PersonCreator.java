@@ -10,14 +10,12 @@ package model;
 public class PersonCreator {
 
 	/**
-	 * @param args
-	 */
+	 * @param args	 */
 	public static void main(String[] args) {
-
-		Person person  = new Person("David", "Robinson", 0);
-	System.out.println(person.getColor());
-	System.out.println(person.calling("Aaron","Angela"));
-
+		Person person  = new Person("Tame", "Blue", 0);
+	
+	System.out.println(person.personCall(person));
+person.personCall(person).toString();
 	}
 
 }

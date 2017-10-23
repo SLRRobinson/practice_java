@@ -38,8 +38,16 @@ public class Person {
 		
 		calling("red", "grte");
 	}
+	
+	public String personCall(Person person) {
+		person.getName();
+		person.getAge();
+		person.getColor();
+		return person.color;
+	}
 
-	public String toString() {
+ 	public String toString() {
+ 		
 		return"";
 	}
 }
